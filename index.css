@@ -1,0 +1,288 @@
+/* 定义弹性布局盒子
+ ------------------------------*/
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex > * {
+  box-sizing: border-box;
+}
+
+
+/* 定义项目排列方向
+------------------------------*/
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+
+/* 定义项目如何换行
+------------------------------*/
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+
+/* 自动缩放
+------------------------------*/
+.flex-fill {
+  /* grow, shrink, basis */
+  flex: 1 1 auto;
+}
+
+
+/* 项目放大比例，当空间足够时是否自动放大以充满多余空间
+------------------------------*/
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+
+/* 项目缩小比例，当空间不足时是否自动缩小
+------------------------------*/
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+
+/* 主轴对齐方式
+------------------------------*/
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+
+/* 交叉轴对齐方式
+------------------------------*/
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+
+/* 多轴线对齐方式
+------------------------------*/
+.align-content-start {
+  align-content: flex-start;
+}
+
+.align-content-end {
+  align-content: flex-end;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.align-content-between {
+  align-content: space-between;
+}
+
+.align-content-around {
+  align-content: space-around;
+}
+
+.align-content-stretch {
+  align-content: stretch;
+}
+
+
+/* 单个项目对齐方式，覆盖 align-items 属性
+------------------------------*/
+.align-self-auto {
+  align-self: auto;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-baseline {
+  align-self: baseline;
+}
+
+.align-self-stretch {
+  align-self: stretch;
+}
+
+
+/* 不允许文本换行
+------------------------------*/
+.text-nowrap {
+  white-space: nowrap;
+}
+
+
+/* 文本对齐方式
+------------------------------*/
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+  text-align-last: justify; /* text-align: justify; 不会处理最后一行文本 */
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+
+/* 文本裁剪，支持多行(2,3,4,5,6)
+------------------------------*/
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis-2,
+.text-ellipsis-3,
+.text-ellipsis-4,
+.text-ellipsis-5,
+.text-ellipsis-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+
+.text-ellipsis-2 {
+  -webkit-line-clamp: 2;
+}
+
+.text-ellipsis-3 {
+  -webkit-line-clamp: 3;
+}
+
+.text-ellipsis-4 {
+  -webkit-line-clamp: 4;
+}
+
+.text-ellipsis-5 {
+  -webkit-line-clamp: 5;
+}
+
+.text-ellipsis-6 {
+  -webkit-line-clamp: 6;
+}
+
+
+/* display
+------------------------------*/
+.d-none, [hidden] {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-row {
+  display: table-row;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}

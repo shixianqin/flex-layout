@@ -1,0 +1,25 @@
+{
+  "name": "@shixianqin/flex-layout",
+  "version": "1.0.0",
+  "description": "CSS flex 布局系统",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixianqin/flex-layout.git"
+  },
+  "keywords": [
+    "css",
+    "css3",
+    "flex",
+    "layout"
+  ],
+  "author": "shixianqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shixianqin/flex-layout/issues"
+  },
+  "homepage": "https://github.com/shixianqin/flex-layout#readme"
+}
