@@ -1,20 +1,27 @@
 # CSS Flex 布局系统
+在线可编辑示例 [flex-layout playground](https://shixianqin.github.io/flex-layout/playground)
+
 
 
 ## 安装
+npm
 ```
-npm i @shixianqin/flex-layout -S
+npm install @shixianqin/flex-layout -S
+```
+bower
+```
+bower install https://github.com/shixianqin/flex-layout.git
 ```
 
 
 ## 导入
-module
+Module (npm install)
 ```javascript
 import '@shixianqin/flex-layout';
 ```
-link
+Link (bower install)
 ```html
-<link rel="stylesheet" href="./node_modules/@shixianqin/flex-layout/index.css">
+<link rel="stylesheet" href="./bower_components/flex-layout/index.css">
 ```
 
 
